@@ -1,21 +1,114 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Dhoni Blog</title>
-         <link rel="icon" type="image/x-icon" href="./img/favicon.png">
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <link rel="stylesheet" href="style.css">
-        </head>
-        
-        <body>
-            <div class="container">
-                
-                <img src="data:image/jpeg;base64,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" width="auto" height="auto"></a>
-                <p>Created a serach Engine feature like google image search, advance search</p>
-            </div>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img_parallax.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img_parallax2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img_parallax3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">SCROLL DOWN</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Parallax Demo</h3>
+  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">COOL!</span>
+  </div>
+</div>
+
 </body>
 </html>
