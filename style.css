@@ -49,14 +49,13 @@ body, html {
   }
   
   .caption span.border1 {
-<<<<<<< HEAD
+
     color: linear-gradient(-45deg,#7f379b,#ffa26c);
-=======
+
     color: black;
->>>>>>> e8b730f99ac6b85a4d0c76c86eafab393f76e17a
+
     padding: 18px;
     font-size: 90px;
-    letter-spacing: 10px;
   }
 
   
