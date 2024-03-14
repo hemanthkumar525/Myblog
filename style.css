@@ -109,197 +109,55 @@ body, html {
    background: lime;
 }
 
-section.contact .card-wrapper{
+div.contact .card-wrapper{
   display:grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap:3rem;
 }
-section.contact .card-wrapper .card{
+div.contact .card-wrapper .card{
   text-align: center;
 }
-section.contact .card-wrapper .card img{
+div.contact .card-wrapper .card img{
   margin-bottom: 3rem;
 }
-section.contact .card-wrapper .card h1{
+div.contact .card-wrapper .card h1{
   font-weight:400;
   margin-bottom:1rem;
 }
-section.contact .card-wrapper .card h6{
+div.contact .card-wrapper .card h6{
   font-size:1rem;
   color:var(--ternary);
   font-weight:400;
   margin-bottom:4rem;
 }
 
-section.contact .input-wrap{
+div.contact .input-wrap{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap:2rem;
   margin-bottom:2rem;
 }
-section.contact .input-wrap-2{
+div.contact .input-wrap-2{
   display: flex;
   flex-direction: column;
 }
-section.contact .input-wrap-2 input{
+div.contact .input-wrap-2 input{
   margin-bottom:2rem;
 }
-section.contact input{
+div.contact input{
   padding:0.5rem;
   border:1px solid var(--light);
   font-size: 0.9rem;
 }
-section.contact .input-wrap-2 textarea{
+div.contact .input-wrap-2 textarea{
   padding:0.5rem;
   border:1px solid var(--light);
   font-size: 0.9rem;
 }
-section.contact .input-wrap-2 textarea:focus, section.contact input:focus{
+div.contact .input-wrap-2 textarea:focus, section.contact input:focus{
   outline:none;  
 }
-section.contact .btn-wrapper{
+div.contact .btn-wrapper{
   text-align: center;
-<<<<<<< HEAD
-  margin-top:2rem;
-=======
-  background-image: url(./img/con.jpg);
-}
-
-form {
-  width: 50%;
-}
-
-.cbox {
-  width: 45%;
-  margin-left: 70px;
-  padding: 10px 30px;
-}
-
-.cbox-message {
-  font-size: 1.2em;
-  margin: 0;
-}
-
-.cbox-line {
-  width: 500px;
-  height: 0.2em;
-  background-color: #fb036b;
-  margin-bottom: 3em;
-  margin-top: 1em;
-}
-
-.c_boxx a p {
-  display: flex;
-  vertical-align: inline;
-}
-
-
-
-.c_boxx a:hover {
-  color: #fc036b;
-  transition: all 0.5s ease;
-}
-
-.c_boxx i {
-  font-size: 38px;
-  margin-right: 10px;
-  /* margin-left: 0.5em; */
-}
-
-form .button {
-  height: 40px;
-  width: 40px;
-}
-
-input[type="text"],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 0px 0px 7px 6px;
-  display: inline-block;
-}
-
-input[type="submit"] {
-  background-color: #fc036b;
-  color: whitesmoke;
-  padding: 12px 50px;
-  border: 2px solid #fc036b;
-  border-radius: 100vmax;
-  cursor: pointer;
-  font-family: var(--ff-montserrat);
-  font-size: var(--fs-links-btns);
-}
-
-input[type="submit"]:hover {
-  background-color: whitesmoke;
-  color: #fc036b;
-}
-
-.cform {
-  background-color: #222;
-  padding: 1em;
-  border-radius: 0.5rem;
-}
-
-.ccol {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.crow-in {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.crow-message {
-  margin: 1rem;
-}
-
-.crow-message div {
-  width: 20%;
-  display: block;
-  height: 1em;
-  border-bottom: 3px solid #fc036b;
-}
-
-.ccol-left {
-  margin: 1em;
-}
-
-.ccol {
-  float: left;
-  width: 100%;
-  margin-top: 6px;
-}
-
-#name {
-  width: 90%;
-  margin: 1em;
-}
-
-#email {
-  width: 90%;
-  margin: 1em;
-}
-
-.crow:after,
-.crow-s::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.crow-s {
-  margin: 1em;
-  color: #fc0
->>>>>>> e8b730f99ac6b85a4d0c76c86eafab393f76e17a
+  margin-top: 2rem;
 }
