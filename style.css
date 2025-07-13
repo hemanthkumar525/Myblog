@@ -41,17 +41,21 @@ h1, h2, h3 {
 }
 
 .bgimg-1 {
-    background-image: url('./img/hero-bg.jpg');
-}
-
-.bgimg-2 {
-    background-image: url('./img/about-bg.jpg');
-}
-
-.bgimg-3 {
-    background-image: url('./img/contact-bg.jpg');
-}
-
+    background-image: url("./img/img1.png");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("./img/img3.jpg");
+    min-height: 500px;
+  }
+  
+  
+  .bgimg-3 {
+    background-image: url("./img/contact-us-button-with-cursor-pointer-click-vector-web-button.jpg ");
+    min-height: 400px;
+  }
+  
 /* Caption Styling */
 .caption {
     background: rgba(0, 0, 0, 0.5);
